@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#0FA4AF !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.main{
+    background-color: rgb(250, 244, 236);
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;  
+}
+
+.main label{
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
